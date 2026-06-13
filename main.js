@@ -227,3 +227,60 @@
 //         return (this.datiCarta.scadenza - new Date().getFullYear()) > 0
 //     }
 // }
+
+
+
+// Esercizio 9
+// Siamo su Amazon, gestisci la lista di recensioni lasciate dagli utenti su un prodotto
+
+// const gestoreRecensioni = {
+//     recensioni: [
+//         {
+//             nome: "Ciro",
+//             stelle: 4
+//         },
+//         {
+//             nome: "Caio",
+//             stelle: 5
+//         },
+//         {
+//             nome: "Pino",
+//             stelle: 3
+//         },
+//         {
+//             nome: "Mario",
+//             stelle: 2
+//         },
+//         {
+//             nome: "Luigi",
+//             stelle: 1
+//         }
+//     ],
+//     filtraStelle(minValue) {
+//         return this.recensioni.filter(r => r.stelle >= minValue)
+//     }
+// }
+
+
+
+// Esercizio 10
+// Organizza i dati meteorologici per città e giorni della settimana
+
+// const meteo = {
+//     Verona: {
+//         previsioni: "soleggiato",
+//         temperatura: 22
+//     },
+//     "Reggio Emilia": {
+//         previsioni: "pioggia",
+//         temperatura: 5
+//     },
+//     "L'Aquila": {
+//         previsioni: "nuvoloso",
+//         temperatura: 10
+//     }
+// }
+
+
+// const city = prompt("Di quale città vuoi sapere la temperatura?");
+// console.log(meteo[city].temperatura);
