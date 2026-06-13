@@ -48,3 +48,58 @@
 //         return new Date().getFullYear() - this.annoPubblicazione
 //     }
 // }
+
+
+
+// Esercizio 4
+// Descrivi le caratteristiche di un immobile in vendita
+
+// const immobile = {
+//     constructionYear: 2011,
+//     metric: 900,
+//     floor: "ground floor",
+//     heater: "autonomo",
+//     custode: true,
+//     price: 250000,
+//     calcTot(price) {
+//         return this.price / this.metric;
+//     },
+//     restructionYear: 2025,
+//     ape: "C"
+// }
+
+
+
+// Esercizio 5
+// Descrivi l'elenco dei prodotti presenti in un carrello di un ecommerce
+
+// const Maglia = {
+//     marca: "Gucci",
+//     modello: "Il più costoso",
+//     taglia: "S",
+//     colore: "Bellissimo",
+//     prezzo: 40000
+// }
+
+// const Vestito = {
+//     marca: "Armani",
+//     modello: "Edizione limitata",
+//     taglia: "S",
+//     colore: "Verde",
+//     prezzo: 700000
+// }
+
+// const Scarpe = {
+//     marca: "Onistuka tiger",
+//     modello: "Mexico 66 ballet",
+//     taglia: 37,
+//     colori: [
+//         "Beige", "Nero", "Argento"
+//     ],
+//     prezzo: 170
+// }
+
+// const products = [Maglia, Vestito, Scarpe];
+
+
+
