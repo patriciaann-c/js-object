@@ -1,4 +1,4 @@
-// Esercizio 10
+// Esercizio 16
 // Organizza i dati meteorologici per città e giorni della settimana
 
 const meteo = {

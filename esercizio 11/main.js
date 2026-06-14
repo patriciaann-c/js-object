@@ -1,4 +1,4 @@
-// Esercizio 5
+// Esercizio 11
 // Descrivi l'elenco dei prodotti presenti in un carrello di un ecommerce
 
 const Maglia = {

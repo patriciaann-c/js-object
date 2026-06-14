@@ -1,4 +1,4 @@
-// Esercizio 9
+// Esercizio 14
 // Siamo su Amazon, gestisci la lista di recensioni lasciate dagli utenti su un prodotto
 
 const gestoreRecensioni = {

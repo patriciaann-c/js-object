@@ -1,16 +1,16 @@
 // Esercizio 4
-// Descrivi le caratteristiche di un immobile in vendita
+// Definisci le informazioni essenziali di un libro
 
-const immobile = {
-    constructionYear: 2011,
-    metric: 900,
-    floor: "ground floor",
-    heater: "autonomo",
-    custode: true,
-    price: 250000,
-    calcTot(price) {
-        return this.price / this.metric;
-    },
-    restructionYear: 2025,
-    ape: "C"
+const best_book = {
+    titolo: "L'isola degli enigmi",
+    autore: "Loris Barbiero",
+    annoPubblicazione: 2024,
+    generi: [
+        "mystery", "enigmi", "rompicapo"
+    ],
+    target: "Young",
+    pages: 214,
+    yearsOld() {
+        return new Date().getFullYear() - this.annoPubblicazione
+    }
 }
